@@ -1,0 +1,68 @@
+# Arquivos de compilação do Hugo
+/public/
+/resources/
+
+# Cache do Hugo
+/resources/_gen/
+
+# Arquivos temporários e de compilação
+.DS_Store
+Thumbs.db
+*.log
+*.log.*
+log.txt
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pyc
+__pycache__/
+*.swp
+*~
+.vscode/
+
+# Dependências geradas
+/node_modules/
+/package-lock.json
+/yarn.lock
+
+# Ambiente de desenvolvimento
+.env
+
+# Arquivos sensíveis (por exemplo, chaves de API)
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Logs e arquivos de build
+logs/
+*.log
+
+# Arquivos de saída de IDEs e editores de código
+.idea/
+.vscode/
+
+# Cache de dependências
+/bower_components/
+
+# Cache do sistema
+/.sass-cache/
+/.cache/
+
+# Outros arquivos de build
+/coverage/
+/lib-cov/
+*.seed
+*.map
+*.swp
+*.out
+*.db
+*.sqlite
+*.pdb
+*.gcda
+*.gcno
+*.mo
+*.tmp
+*.log
+*.log.[0-9]
+*.log-[0-9]*
